@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+}
+
+body {
+    font-size: 2rem;
+    font-family: system-ui, serif;
+}
+
+header {
+    grid-column: 1 /4;
+}
+
+.left-side {
+    grid-column: 1 /2;
+}
+
+main {
+    grid-column: 2/3;
+    height: 500px;
+}
+
+.right-side {
+    grid-column: 3/4;
+}
+
+footer {
+    grid-column: 1/4;
+}
+
+.section {
+    padding: 2rem;
+}
+
+.pink {
+    background: pink;
+}
+.blue {
+    background: lightblue;
+}
+.coral {
+    background: coral;
+}
+.yellow {
+    background: yellow;
+}
+.green {
+    background: lightgreen;
+}
