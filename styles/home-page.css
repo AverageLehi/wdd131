@@ -1,0 +1,78 @@
+:root {
+    
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 40px;
+}
+
+#course-title {
+    font-size: 1.2rem;
+    text-align: center;
+    align-self: center;
+    padding: 10px 0;
+    background: rgb(3, 73, 123);
+    color: white;
+}
+
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(47, 49, 50);
+    padding: 10px 0;
+    color: white;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    margin: 1rem;
+}
+
+.section-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 0 2rem;
+}
+
+img {
+    width: 150px;
+}
+
+.card {
+    border: 1px solid gray;
+    margin: 3px;
+    border-radius: 10px;
+    /* padding: 10px; */
+    overflow: hidden;
+}
+
+.card h2{
+    text-align: center;
+    font-size: 1rem;
+    padding: 5px;
+    background: rgb(3, 73, 123);
+    color: white;
+}
+
+.content-information {
+    margin: 1rem;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+}
